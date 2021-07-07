@@ -1,0 +1,24 @@
+[2021-07-07 01:23:20,562][__main__][INFO] - Fine-tuning BERT ...
+[2021-07-07 01:23:24,904][__main__][INFO] - Loading datasets...
+[2021-07-07 01:23:26,071][__main__][INFO] - Number of train examples: 9427
+[2021-07-07 01:23:26,071][__main__][INFO] - Number of valid examples: 1635
+[2021-07-07 01:23:26,071][__main__][INFO] - Number of test examples: 1635
+[2021-07-07 01:23:26,071][__main__][INFO] - Creating dataloaders...
+[2021-07-07 01:23:27,331][__main__][INFO] - Number of model initial params : 109483778
+[2021-07-07 01:23:27,333][__main__][INFO] - Number of model params for training: 109483778
+[2021-07-07 01:26:28,445][__main__][INFO] - Epoch 0, Train Loss 0.6574
+[2021-07-07 01:26:39,437][__main__][INFO] - Epoch 0, Val Loss: 0.6293, Val Accuracy: 0.6495
+[2021-07-07 01:26:39,938][__main__][INFO] - Model saved!
+[2021-07-07 01:29:39,292][__main__][INFO] - Epoch 1, Train Loss 0.5951
+[2021-07-07 01:29:51,901][__main__][INFO] - Epoch 1, Val Loss: 0.5823, Val Accuracy: 0.6893
+[2021-07-07 01:29:52,436][__main__][INFO] - Model saved!
+[2021-07-07 01:32:42,752][__main__][INFO] - Epoch 2, Train Loss 0.516
+[2021-07-07 01:32:53,408][__main__][INFO] - Epoch 2, Val Loss: 0.5628, Val Accuracy: 0.7217
+[2021-07-07 01:32:53,921][__main__][INFO] - Model saved!
+[2021-07-07 01:35:41,514][__main__][INFO] - Epoch 3, Train Loss 0.4292
+[2021-07-07 01:35:52,166][__main__][INFO] - Epoch 3, Val Loss: 0.607, Val Accuracy: 0.7156
+[2021-07-07 01:38:38,031][__main__][INFO] - Epoch 4, Train Loss 0.3336
+[2021-07-07 01:38:48,683][__main__][INFO] - Epoch 4, Val Loss: 0.6607, Val Accuracy: 0.7309
+[2021-07-07 01:38:59,571][__main__][INFO] - Test Loss: 0.573, Test Accuracy: 0.705
+[2021-07-07 01:38:59,657][__main__][INFO] - ROC-AUC (Test): 0.761
+[2021-07-07 01:38:59,662][__main__][INFO] - Done

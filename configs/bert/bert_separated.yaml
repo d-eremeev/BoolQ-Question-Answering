@@ -1,0 +1,42 @@
+bert:
+  model_class: ppb.BertModel
+  tokenizer_class: ppb.BertTokenizer
+  pretrained_weights: bert-base-uncased
+  prefixes:
+    question: q
+    passage: p
+  use_pooling: True
+datasets:
+  data_path: data
+  train_filename: train.csv
+  val_filename: valid.csv
+  test_filename: test.csv
+  cache_dir: HFCache
+augmentations:
+  augment: False
+  aug_steps: 3
+  enable_passage_aug: False
+  aug_batch_size: 16
+loaders:
+  train:
+    batch_size: 64
+    num_workers: 0
+    shuffle: True
+  val:
+    batch_size: 64
+    num_workers: 0
+    shuffle: False
+  test:
+    batch_size: 64
+    num_workers: 0
+    shuffle: False
+logreg:
+  penalty: l2
+  l1_ratio: null
+  solver: lbfgs
+  max_iter: 1000
+
+hydra:
+  run:
+    dir: outputs/bert_separated/${now:%Y-%m-%d-%H-%M}
+  output_subdir: hydra

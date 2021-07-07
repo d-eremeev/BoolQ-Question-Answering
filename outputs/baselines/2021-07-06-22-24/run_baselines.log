@@ -1,0 +1,233 @@
+[2021-07-06 22:24:19,232][__main__][INFO] - Evaluating Constant baseline...
+[2021-07-06 22:24:19,292][__main__][INFO] - Data has been loaded
+[2021-07-06 22:24:19,292][__main__][INFO] - Train shape: (9427, 6), Val shape: (1635, 6), Test shape: (1635, 6)
+[2021-07-06 22:24:19,294][__main__][INFO] - Constant Baseline Accuracy (Test): 0.6214067278287462
+[2021-07-06 22:24:19,295][__main__][INFO] - Done
+[2021-07-06 22:24:19,295][__main__][INFO] - 
+[2021-07-06 22:24:19,295][__main__][INFO] - Evaluating FastText baseline...
+[2021-07-06 22:24:19,355][__main__][INFO] - Data has been loaded
+[2021-07-06 22:24:19,356][__main__][INFO] - Number of train examples: 9427
+[2021-07-06 22:24:19,356][__main__][INFO] - Number of valid examples: 1635
+[2021-07-06 22:24:19,356][__main__][INFO] - Number of test examples: 1635
+[2021-07-06 22:24:19,356][__main__][INFO] - Lemmatization set to True, remove_stopwords set to False
+[2021-07-06 22:24:24,659][__main__][INFO] - Pairs concatenated and tokenized.
+[2021-07-06 22:24:24,659][__main__][INFO] - 
+[2021-07-06 22:24:24,659][__main__][INFO] - Starting to train FASTTEXT
+[2021-07-06 22:24:27,754][__main__][INFO] - 
+[2021-07-06 22:24:27,754][__main__][INFO] - Epoch #1 start
+[2021-07-06 22:24:34,566][__main__][INFO] - Downstream Accuracy = 0.497
+[2021-07-06 22:24:35,245][__main__][INFO] - Model saved!
+[2021-07-06 22:24:35,245][__main__][INFO] - Epoch #1 end
+[2021-07-06 22:24:35,245][__main__][INFO] - 
+[2021-07-06 22:24:35,245][__main__][INFO] - Epoch #2 start
+[2021-07-06 22:24:41,993][__main__][INFO] - Downstream Accuracy = 0.496
+[2021-07-06 22:24:41,993][__main__][INFO] - Epoch #2 end
+[2021-07-06 22:24:41,993][__main__][INFO] - 
+[2021-07-06 22:24:41,993][__main__][INFO] - Epoch #3 start
+[2021-07-06 22:24:48,694][__main__][INFO] - Downstream Accuracy = 0.496
+[2021-07-06 22:24:48,694][__main__][INFO] - Epoch #3 end
+[2021-07-06 22:24:48,694][__main__][INFO] - 
+[2021-07-06 22:24:48,694][__main__][INFO] - Epoch #4 start
+[2021-07-06 22:24:55,601][__main__][INFO] - Downstream Accuracy = 0.5
+[2021-07-06 22:24:56,338][__main__][INFO] - Model saved!
+[2021-07-06 22:24:56,338][__main__][INFO] - Epoch #4 end
+[2021-07-06 22:24:56,338][__main__][INFO] - 
+[2021-07-06 22:24:56,338][__main__][INFO] - Epoch #5 start
+[2021-07-06 22:25:03,063][__main__][INFO] - Downstream Accuracy = 0.5
+[2021-07-06 22:25:03,805][__main__][INFO] - Model saved!
+[2021-07-06 22:25:03,805][__main__][INFO] - Epoch #5 end
+[2021-07-06 22:25:03,805][__main__][INFO] - 
+[2021-07-06 22:25:03,805][__main__][INFO] - Epoch #6 start
+[2021-07-06 22:25:10,573][__main__][INFO] - Downstream Accuracy = 0.513
+[2021-07-06 22:25:11,305][__main__][INFO] - Model saved!
+[2021-07-06 22:25:11,305][__main__][INFO] - Epoch #6 end
+[2021-07-06 22:25:11,305][__main__][INFO] - 
+[2021-07-06 22:25:11,305][__main__][INFO] - Epoch #7 start
+[2021-07-06 22:25:18,131][__main__][INFO] - Downstream Accuracy = 0.556
+[2021-07-06 22:25:18,871][__main__][INFO] - Model saved!
+[2021-07-06 22:25:18,871][__main__][INFO] - Epoch #7 end
+[2021-07-06 22:25:18,871][__main__][INFO] - 
+[2021-07-06 22:25:18,871][__main__][INFO] - Epoch #8 start
+[2021-07-06 22:25:25,658][__main__][INFO] - Downstream Accuracy = 0.59
+[2021-07-06 22:25:26,406][__main__][INFO] - Model saved!
+[2021-07-06 22:25:26,406][__main__][INFO] - Epoch #8 end
+[2021-07-06 22:25:26,406][__main__][INFO] - 
+[2021-07-06 22:25:26,406][__main__][INFO] - Epoch #9 start
+[2021-07-06 22:25:33,223][__main__][INFO] - Downstream Accuracy = 0.596
+[2021-07-06 22:25:33,948][__main__][INFO] - Model saved!
+[2021-07-06 22:25:33,948][__main__][INFO] - Epoch #9 end
+[2021-07-06 22:25:33,948][__main__][INFO] - 
+[2021-07-06 22:25:33,948][__main__][INFO] - Epoch #10 start
+[2021-07-06 22:25:40,780][__main__][INFO] - Downstream Accuracy = 0.608
+[2021-07-06 22:25:41,507][__main__][INFO] - Model saved!
+[2021-07-06 22:25:41,508][__main__][INFO] - Epoch #10 end
+[2021-07-06 22:25:41,508][__main__][INFO] - 
+[2021-07-06 22:25:41,508][__main__][INFO] - Epoch #11 start
+[2021-07-06 22:25:48,314][__main__][INFO] - Downstream Accuracy = 0.619
+[2021-07-06 22:25:49,051][__main__][INFO] - Model saved!
+[2021-07-06 22:25:49,051][__main__][INFO] - Epoch #11 end
+[2021-07-06 22:25:49,051][__main__][INFO] - 
+[2021-07-06 22:25:49,051][__main__][INFO] - Epoch #12 start
+[2021-07-06 22:25:55,840][__main__][INFO] - Downstream Accuracy = 0.623
+[2021-07-06 22:25:56,607][__main__][INFO] - Model saved!
+[2021-07-06 22:25:56,607][__main__][INFO] - Epoch #12 end
+[2021-07-06 22:25:56,607][__main__][INFO] - 
+[2021-07-06 22:25:56,607][__main__][INFO] - Epoch #13 start
+[2021-07-06 22:26:03,463][__main__][INFO] - Downstream Accuracy = 0.628
+[2021-07-06 22:26:04,191][__main__][INFO] - Model saved!
+[2021-07-06 22:26:04,191][__main__][INFO] - Epoch #13 end
+[2021-07-06 22:26:04,191][__main__][INFO] - 
+[2021-07-06 22:26:04,191][__main__][INFO] - Epoch #14 start
+[2021-07-06 22:26:11,023][__main__][INFO] - Downstream Accuracy = 0.628
+[2021-07-06 22:26:11,023][__main__][INFO] - Epoch #14 end
+[2021-07-06 22:26:11,023][__main__][INFO] - 
+[2021-07-06 22:26:11,023][__main__][INFO] - Epoch #15 start
+[2021-07-06 22:26:17,816][__main__][INFO] - Downstream Accuracy = 0.628
+[2021-07-06 22:26:17,817][__main__][INFO] - Epoch #15 end
+[2021-07-06 22:26:17,817][__main__][INFO] - 
+[2021-07-06 22:26:17,817][__main__][INFO] - Epoch #16 start
+[2021-07-06 22:26:24,705][__main__][INFO] - Downstream Accuracy = 0.626
+[2021-07-06 22:26:24,705][__main__][INFO] - Epoch #16 end
+[2021-07-06 22:26:24,705][__main__][INFO] - 
+[2021-07-06 22:26:24,705][__main__][INFO] - Epoch #17 start
+[2021-07-06 22:26:31,489][__main__][INFO] - Downstream Accuracy = 0.627
+[2021-07-06 22:26:31,489][__main__][INFO] - Epoch #17 end
+[2021-07-06 22:26:31,489][__main__][INFO] - 
+[2021-07-06 22:26:31,489][__main__][INFO] - Epoch #18 start
+[2021-07-06 22:26:38,261][__main__][INFO] - Downstream Accuracy = 0.628
+[2021-07-06 22:26:38,261][__main__][INFO] - Epoch #18 end
+[2021-07-06 22:26:38,262][__main__][INFO] - 
+[2021-07-06 22:26:38,262][__main__][INFO] - Epoch #19 start
+[2021-07-06 22:26:45,044][__main__][INFO] - Downstream Accuracy = 0.628
+[2021-07-06 22:26:45,044][__main__][INFO] - Epoch #19 end
+[2021-07-06 22:26:45,044][__main__][INFO] - 
+[2021-07-06 22:26:45,044][__main__][INFO] - Epoch #20 start
+[2021-07-06 22:26:51,826][__main__][INFO] - Downstream Accuracy = 0.628
+[2021-07-06 22:26:51,826][__main__][INFO] - Epoch #20 end
+[2021-07-06 22:26:51,826][__main__][INFO] - 
+[2021-07-06 22:26:51,826][__main__][INFO] - Epoch #21 start
+[2021-07-06 22:26:58,639][__main__][INFO] - Downstream Accuracy = 0.628
+[2021-07-06 22:26:58,640][__main__][INFO] - Epoch #21 end
+[2021-07-06 22:26:58,640][__main__][INFO] - 
+[2021-07-06 22:26:58,640][__main__][INFO] - Epoch #22 start
+[2021-07-06 22:27:05,412][__main__][INFO] - Downstream Accuracy = 0.628
+[2021-07-06 22:27:05,412][__main__][INFO] - Epoch #22 end
+[2021-07-06 22:27:05,412][__main__][INFO] - 
+[2021-07-06 22:27:05,412][__main__][INFO] - Epoch #23 start
+[2021-07-06 22:27:12,242][__main__][INFO] - Downstream Accuracy = 0.628
+[2021-07-06 22:27:12,242][__main__][INFO] - Epoch #23 end
+[2021-07-06 22:27:12,242][__main__][INFO] - 
+[2021-07-06 22:27:12,242][__main__][INFO] - Epoch #24 start
+[2021-07-06 22:27:19,082][__main__][INFO] - Downstream Accuracy = 0.628
+[2021-07-06 22:27:19,082][__main__][INFO] - Epoch #24 end
+[2021-07-06 22:27:19,082][__main__][INFO] - 
+[2021-07-06 22:27:19,082][__main__][INFO] - Epoch #25 start
+[2021-07-06 22:27:26,024][__main__][INFO] - Downstream Accuracy = 0.629
+[2021-07-06 22:27:26,764][__main__][INFO] - Model saved!
+[2021-07-06 22:27:26,765][__main__][INFO] - Epoch #25 end
+[2021-07-06 22:27:26,765][__main__][INFO] - 
+[2021-07-06 22:27:26,765][__main__][INFO] - Epoch #26 start
+[2021-07-06 22:27:33,574][__main__][INFO] - Downstream Accuracy = 0.629
+[2021-07-06 22:27:33,574][__main__][INFO] - Epoch #26 end
+[2021-07-06 22:27:33,574][__main__][INFO] - 
+[2021-07-06 22:27:33,574][__main__][INFO] - Epoch #27 start
+[2021-07-06 22:27:40,380][__main__][INFO] - Downstream Accuracy = 0.628
+[2021-07-06 22:27:40,380][__main__][INFO] - Epoch #27 end
+[2021-07-06 22:27:40,380][__main__][INFO] - 
+[2021-07-06 22:27:40,380][__main__][INFO] - Epoch #28 start
+[2021-07-06 22:27:47,240][__main__][INFO] - Downstream Accuracy = 0.626
+[2021-07-06 22:27:47,240][__main__][INFO] - Epoch #28 end
+[2021-07-06 22:27:47,240][__main__][INFO] - 
+[2021-07-06 22:27:47,240][__main__][INFO] - Epoch #29 start
+[2021-07-06 22:27:54,098][__main__][INFO] - Downstream Accuracy = 0.628
+[2021-07-06 22:27:54,098][__main__][INFO] - Epoch #29 end
+[2021-07-06 22:27:54,098][__main__][INFO] - 
+[2021-07-06 22:27:54,098][__main__][INFO] - Epoch #30 start
+[2021-07-06 22:28:00,842][__main__][INFO] - Downstream Accuracy = 0.626
+[2021-07-06 22:28:00,842][__main__][INFO] - Epoch #30 end
+[2021-07-06 22:28:00,842][__main__][INFO] - 
+[2021-07-06 22:28:00,842][__main__][INFO] - Epoch #31 start
+[2021-07-06 22:28:07,654][__main__][INFO] - Downstream Accuracy = 0.628
+[2021-07-06 22:28:07,654][__main__][INFO] - Epoch #31 end
+[2021-07-06 22:28:07,654][__main__][INFO] - 
+[2021-07-06 22:28:07,654][__main__][INFO] - Epoch #32 start
+[2021-07-06 22:28:14,474][__main__][INFO] - Downstream Accuracy = 0.628
+[2021-07-06 22:28:14,474][__main__][INFO] - Epoch #32 end
+[2021-07-06 22:28:14,474][__main__][INFO] - 
+[2021-07-06 22:28:14,474][__main__][INFO] - Epoch #33 start
+[2021-07-06 22:28:21,347][__main__][INFO] - Downstream Accuracy = 0.628
+[2021-07-06 22:28:21,347][__main__][INFO] - Epoch #33 end
+[2021-07-06 22:28:21,347][__main__][INFO] - 
+[2021-07-06 22:28:21,347][__main__][INFO] - Epoch #34 start
+[2021-07-06 22:28:28,222][__main__][INFO] - Downstream Accuracy = 0.623
+[2021-07-06 22:28:28,222][__main__][INFO] - Epoch #34 end
+[2021-07-06 22:28:28,223][__main__][INFO] - 
+[2021-07-06 22:28:28,223][__main__][INFO] - Epoch #35 start
+[2021-07-06 22:28:34,980][__main__][INFO] - Downstream Accuracy = 0.61
+[2021-07-06 22:28:34,980][__main__][INFO] - Epoch #35 end
+[2021-07-06 22:28:34,980][__main__][INFO] - 
+[2021-07-06 22:28:34,980][__main__][INFO] - Epoch #36 start
+[2021-07-06 22:28:41,762][__main__][INFO] - Downstream Accuracy = 0.602
+[2021-07-06 22:28:41,762][__main__][INFO] - Epoch #36 end
+[2021-07-06 22:28:41,762][__main__][INFO] - 
+[2021-07-06 22:28:41,762][__main__][INFO] - Epoch #37 start
+[2021-07-06 22:28:48,553][__main__][INFO] - Downstream Accuracy = 0.598
+[2021-07-06 22:28:48,553][__main__][INFO] - Epoch #37 end
+[2021-07-06 22:28:48,553][__main__][INFO] - 
+[2021-07-06 22:28:48,553][__main__][INFO] - Epoch #38 start
+[2021-07-06 22:28:55,350][__main__][INFO] - Downstream Accuracy = 0.598
+[2021-07-06 22:28:55,350][__main__][INFO] - Epoch #38 end
+[2021-07-06 22:28:55,350][__main__][INFO] - 
+[2021-07-06 22:28:55,351][__main__][INFO] - Epoch #39 start
+[2021-07-06 22:29:02,155][__main__][INFO] - Downstream Accuracy = 0.601
+[2021-07-06 22:29:02,155][__main__][INFO] - Epoch #39 end
+[2021-07-06 22:29:02,155][__main__][INFO] - 
+[2021-07-06 22:29:02,155][__main__][INFO] - Epoch #40 start
+[2021-07-06 22:29:08,891][__main__][INFO] - Downstream Accuracy = 0.591
+[2021-07-06 22:29:08,891][__main__][INFO] - Epoch #40 end
+[2021-07-06 22:29:08,891][__main__][INFO] - 
+[2021-07-06 22:29:08,891][__main__][INFO] - Epoch #41 start
+[2021-07-06 22:29:15,624][__main__][INFO] - Downstream Accuracy = 0.58
+[2021-07-06 22:29:15,624][__main__][INFO] - Epoch #41 end
+[2021-07-06 22:29:15,624][__main__][INFO] - 
+[2021-07-06 22:29:15,624][__main__][INFO] - Epoch #42 start
+[2021-07-06 22:29:22,489][__main__][INFO] - Downstream Accuracy = 0.562
+[2021-07-06 22:29:22,489][__main__][INFO] - Epoch #42 end
+[2021-07-06 22:29:22,489][__main__][INFO] - 
+[2021-07-06 22:29:22,489][__main__][INFO] - Epoch #43 start
+[2021-07-06 22:29:29,405][__main__][INFO] - Downstream Accuracy = 0.554
+[2021-07-06 22:29:29,405][__main__][INFO] - Epoch #43 end
+[2021-07-06 22:29:29,406][__main__][INFO] - 
+[2021-07-06 22:29:29,406][__main__][INFO] - Epoch #44 start
+[2021-07-06 22:29:36,212][__main__][INFO] - Downstream Accuracy = 0.55
+[2021-07-06 22:29:36,212][__main__][INFO] - Epoch #44 end
+[2021-07-06 22:29:36,212][__main__][INFO] - 
+[2021-07-06 22:29:36,212][__main__][INFO] - Epoch #45 start
+[2021-07-06 22:29:43,028][__main__][INFO] - Downstream Accuracy = 0.544
+[2021-07-06 22:29:43,029][__main__][INFO] - Epoch #45 end
+[2021-07-06 22:29:43,029][__main__][INFO] - 
+[2021-07-06 22:29:43,029][__main__][INFO] - Epoch #46 start
+[2021-07-06 22:29:49,800][__main__][INFO] - Downstream Accuracy = 0.541
+[2021-07-06 22:29:49,800][__main__][INFO] - Epoch #46 end
+[2021-07-06 22:29:49,800][__main__][INFO] - 
+[2021-07-06 22:29:49,800][__main__][INFO] - Epoch #47 start
+[2021-07-06 22:29:56,636][__main__][INFO] - Downstream Accuracy = 0.537
+[2021-07-06 22:29:56,636][__main__][INFO] - Epoch #47 end
+[2021-07-06 22:29:56,636][__main__][INFO] - 
+[2021-07-06 22:29:56,636][__main__][INFO] - Epoch #48 start
+[2021-07-06 22:30:03,386][__main__][INFO] - Downstream Accuracy = 0.538
+[2021-07-06 22:30:03,386][__main__][INFO] - Epoch #48 end
+[2021-07-06 22:30:03,386][__main__][INFO] - 
+[2021-07-06 22:30:03,386][__main__][INFO] - Epoch #49 start
+[2021-07-06 22:30:10,233][__main__][INFO] - Downstream Accuracy = 0.529
+[2021-07-06 22:30:10,233][__main__][INFO] - Epoch #49 end
+[2021-07-06 22:30:10,233][__main__][INFO] - 
+[2021-07-06 22:30:10,233][__main__][INFO] - Epoch #50 start
+[2021-07-06 22:30:17,218][__main__][INFO] - Downstream Accuracy = 0.522
+[2021-07-06 22:30:17,218][__main__][INFO] - Met Early Stopping Condition! Training aborted.
+[2021-07-06 22:30:17,218][__main__][INFO] - 
+[2021-07-06 22:30:17,219][__main__][INFO] - Loading Best model
+[2021-07-06 22:30:19,289][__main__][INFO] - Inference on Test
+[2021-07-06 22:30:32,637][__main__][INFO] - LogReg on FastText embeddings Accuracy (Test): 0.632
+[2021-07-06 22:30:32,637][__main__][INFO] - LogReg on FastText embeddings ROC-AUC (Test): 0.585
+[2021-07-06 22:30:32,693][__main__][INFO] - Done

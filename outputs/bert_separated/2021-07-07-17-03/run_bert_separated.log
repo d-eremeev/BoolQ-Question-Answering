@@ -1,0 +1,16 @@
+[2021-07-07 17:03:30,385][__main__][INFO] - Evaluating pretrained BERT embeddings...
+[2021-07-07 17:03:35,016][__main__][INFO] - Loading datasets...
+[2021-07-07 17:03:35,603][__main__][INFO] - Question Synonym Aug enabled
+[2021-07-07 17:03:35,603][__main__][INFO] - Passage Back Translation enabled
+[2021-07-07 17:03:53,185][__main__][INFO] - Starting augmentation process
+[2021-07-07 18:15:56,108][__main__][INFO] - Augmentations completed
+[2021-07-07 18:17:19,932][__main__][INFO] - Number of train examples: 37708
+[2021-07-07 18:17:19,932][__main__][INFO] - Number of valid examples: 1635
+[2021-07-07 18:17:19,932][__main__][INFO] - Number of test examples: 1635
+[2021-07-07 18:17:19,932][__main__][INFO] - Creating dataloaders...
+[2021-07-07 18:17:20,037][__main__][INFO] - Number of model params: 109482240
+[2021-07-07 18:17:20,037][__main__][INFO] - Inference BERT on train/test...
+[2021-07-07 18:24:15,164][__main__][INFO] - Fitting LogReg on BERT embeddings of question/passage pairs...
+[2021-07-07 18:24:58,065][__main__][INFO] - Accuracy (Test): 0.65
+[2021-07-07 18:24:58,065][__main__][INFO] - ROC-AUC (Test): 0.668
+[2021-07-07 18:24:58,102][__main__][INFO] - Done

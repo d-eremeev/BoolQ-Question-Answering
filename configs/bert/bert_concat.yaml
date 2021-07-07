@@ -1,0 +1,37 @@
+bert:
+  model_class: ppb.BertForSequenceClassification
+  tokenizer_class: ppb.BertTokenizer
+  pretrained_weights: bert-base-uncased
+  freeze_bert: False
+  lr: 1.0e-5
+  epochs: 5
+  hidden_dropout_prob: 0.2 # default 0.1
+datasets:
+  data_path: data
+  train_filename: train.csv
+  val_filename: valid.csv
+  test_filename: test.csv
+  cache_dir: HFCache
+augmentations:
+  augment: False
+  aug_steps: 3
+  enable_passage_aug: False
+  aug_batch_size: 16
+loaders:
+  train:
+    batch_size: 24
+    num_workers: 0
+    shuffle: True
+  val:
+    batch_size: 24
+    num_workers: 0
+    shuffle: False
+  test:
+    batch_size: 24
+    num_workers: 0
+    shuffle: False
+
+hydra:
+  run:
+    dir: outputs/bert_concat/${now:%Y-%m-%d-%H-%M}
+  output_subdir: hydra

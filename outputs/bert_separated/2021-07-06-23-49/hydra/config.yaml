@@ -1,0 +1,37 @@
+bert:
+  model_class: ppb.DistilBertModel
+  tokenizer_class: ppb.DistilBertTokenizer
+  pretrained_weights: distilbert-base-uncased
+  prefixes:
+    question: q
+    passage: p
+  use_pooling: false
+datasets:
+  data_path: data
+  train_filename: train.csv
+  val_filename: valid.csv
+  test_filename: test.csv
+  cache_dir: HFCache
+augmentations:
+  augment: false
+  aug_steps: 3
+  enable_passage_aug: false
+  aug_batch_size: 512
+loaders:
+  train:
+    batch_size: 64
+    num_workers: 0
+    shuffle: true
+  val:
+    batch_size: 64
+    num_workers: 0
+    shuffle: false
+  test:
+    batch_size: 64
+    num_workers: 0
+    shuffle: false
+logreg:
+  penalty: l2
+  l1_ratio: null
+  solver: lbfgs
+  max_iter: 1000
